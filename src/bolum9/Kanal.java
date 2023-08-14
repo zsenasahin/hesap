@@ -1,0 +1,32 @@
+package bolum9;
+
+public class Kanal {
+
+    private String ad;
+    private int kanalNo;
+
+    public Kanal(String ad, int kanalNo) {
+        this.ad = ad;
+        this.kanalNo = kanalNo;
+    }
+
+    public String getAd() {
+        return ad;
+    }
+
+    public void setAd(String ad) {
+        this.ad = ad;
+    }
+
+    public int getKanalNo() {
+        return kanalNo;
+    }
+
+    public void setKanalNo(int kanalNo) {
+        this.kanalNo = kanalNo;
+    }
+
+    public String kanalBilgisiGoster(){
+        return "Adi: " +ad +" Numarasi: " +kanalNo;
+    }
+}
