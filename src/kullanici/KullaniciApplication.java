@@ -41,7 +41,9 @@ public class KullaniciApplication {
     }
 
     private  void girisYap() {
-
+        String kullaniciAdi = degerAl("kullanıcı adı giriniz: ");
+        String sifre = degerAl("Şifre giriniz: ");
+        
     }
 
     private  void listele() {
