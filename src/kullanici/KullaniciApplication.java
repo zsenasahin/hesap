@@ -31,8 +31,8 @@ public class KullaniciApplication {
     }
 
     private  void kayitOl() {
-        String kullaniciAdi = degerAl("Kullanıcı adını gir");
-        String sifre = degerAl("Sifreyi giriniz");
+        String kullaniciAdi = degerAl("Kullanıcı adını giriniz: ");
+        String sifre = degerAl("Şifreyi giriniz: ");
         Kullanici k = new Kullanici()
                 .setKullaniciAdi(kullaniciAdi)
                 .setSifre(sifre);
@@ -41,9 +41,9 @@ public class KullaniciApplication {
     }
 
     private  void girisYap() {
-        String kullaniciAdi = degerAl("kullanıcı adı giriniz: ");
+        String kullaniciAdi = degerAl("Kullanıcı adı giriniz: ");
         String sifre = degerAl("Şifre giriniz: ");
-        
+
     }
 
     private  void listele() {
