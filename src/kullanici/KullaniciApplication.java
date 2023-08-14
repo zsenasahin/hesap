@@ -47,6 +47,7 @@ public class KullaniciApplication {
     }
 
     private  void listele() {
+        veriTabani.kullaniciListele();
     }
 
     private  void kullaniciAra() {
